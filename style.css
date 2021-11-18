@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Media Queries */
+
+@media screen and (min-width: 1440px) {
+	body {
+		
+	}
+    .wrapper {
+    min-width: 1440px;
+    }
+
+  }
