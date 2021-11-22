@@ -50,7 +50,33 @@
     .blue_button {
         background-color: hsl(233, 100%, 69%);
     }
-
+    .clipboard img {
+      max-width: 100%;
+    }
+    .logos {
+      display: grid;
+      grid-row-gap: 44px;
+      justify-items: center;
+      margin: 50px 0px;
+    }
+    .logos img {
+      max-width: 80%;
+    }
+    footer {
+      background-color: hsl(0, 0%, 93%);
+      padding: 35px 0px;
+    }
+    footer nav ul {
+      padding-left: 0px;
+    }
+    footer nav ul li {
+      list-style-type: none;
+      
+    }
+    footer img {
+      margin: 20px 0px;
+      max-width: 14%;
+    }
 
 
 
