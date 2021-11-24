@@ -11,18 +11,27 @@
       font-family: 'Bai Jamjuree', sans-serif;
       line-height: 28px;
       color: hsl(201, 11%, 66%);
+      margin: 0;
     }
     h1, h2, h3, h4, h5, h6 {
       color: hsl(210, 10%, 33%);
+    }
+    h2 {
+      font-size: 2.2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      margin-top: 45px;
     }
     .wrapper {
       width: 375px;
       margin: 0 auto;
     }
     header {
-      margin-bottom: 54px;
+      margin-bottom: 154px;
       background-image: url('images/bg-header-mobile.png');
       background-size: cover;
+      margin-top: 0;
     }
     header img {
       margin: 40px 0px;
@@ -50,21 +59,30 @@
     .blue_button {
         background-color: hsl(233, 100%, 69%);
     }
+    .snippets img {
+      max-width: 100%;
+      margin: 50px 0px;
+    }
     .clipboard img {
       max-width: 100%;
+      margin: 50px 0px;
+    }
+    .clipboard-icons {
+      margin:50px 0px -20px 0px!important;
     }
     .logos {
       display: grid;
       grid-row-gap: 44px;
       justify-items: center;
-      margin: 50px 0px;
+      margin: 150px 0px;
     }
     .logos img {
       max-width: 80%;
     }
     footer {
-      background-color: hsl(0, 0%, 93%);
+      background-color: hsl(0, 0%, 98%);
       padding: 35px 0px;
+      margin-top: 200px;
     }
     footer nav ul {
       padding-left: 0px;
