@@ -59,7 +59,7 @@
     .blue_button {
         background-color: hsl(233, 100%, 69%);
     }
-    .snippets img {
+    .inner-snippets img {
       max-width: 100%;
       margin: 50px 0px;
     }
@@ -104,34 +104,43 @@
       
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
     /* Media Queries */
 
 @media screen and (min-width: 1440px) {
 	body {
-		
+		min-width: 1440px;
 	}
     .wrapper {
-    min-width: 1440px;
+      min-width: 1040px;
     }
-
+    .buttons {
+      display: flex;
+      justify-content: center;
+      
+    }
+    button {
+      
+      padding: 16px 38px;
+      
+    }
+    .inner-snippets {
+      display: flex;
+      justify-content: center;
+      
+    }
+    .inner-snippets img {
+      max-width: 100%;
+      margin: 50px 0px;
+    }
+    .snippets-image {
+      margin-left: 10px;
+      padding: 0px 40px 0px 0px;
+    }
+    .snippets-snippets {
+      margin-right: 30px;
+      padding: 0px 0px 0px 40px;
+    }
   }
